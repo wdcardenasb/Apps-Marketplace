@@ -1,4 +1,3 @@
-
 angular.module('starter').service('ProductosService', ProdutosService); 
 
 ProdutosService.$inject = ['$http', '$q'];

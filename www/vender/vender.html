@@ -1,0 +1,27 @@
+<ion-view view-title="vender">
+  <ion-content>
+   <div class="list list-inset">
+   		<label class="item item-input">
+      <i class ="icon ion-search placeholder-icon balanced"></i>
+      <input type="text" placeholder="Buscar"></input>
+   	</label>
+   </div>
+
+ <div class="list">
+  <ion-toggle ng-model="notificacionesOn">Enviar Notificaciones</ion-toggle>
+      <div class="item item-divider">
+      Horario Notificaciones</div>
+
+      <ion-radio ng-model=".horario" ng-value="AM">AM</ion-radio>
+      <ion-radio ng-model="horario" ng-value="AM">PM</ion-radio>
+
+      <div class="item item-divider">
+      Recibir Notificaciones Sobre</div>
+
+
+   </div>
+
+
+
+  </ion-content>
+</ion-view>
